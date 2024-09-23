@@ -1,33 +1,126 @@
+
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Weeeebsite</title>
-        <style>
-            body{
-                /*backgroundcolor*/
-                background-color:aqua;
-                /*wordcolor*/
-                color:black
-            }
-        </style>
-    </head>
-    <body>
-        <!--setbackground-->
-        <body background=""></body>
-        <!--title-->
-        <h1>welcome</h1>
-        <p>this is a sentence</p>
-        <p> group 10</p>
-        <a href="">Assignment 1</a>
-        <a href="">Assignment 2</a>
-        <a href="">Assignment 3</a>
-        <p>Xinyu Liu: 19xl70@queensu.ca</p>
-        <p>Chuyi Qin: 21ciq@queensu.ca</p>
-        <p>Yuzhe Lin: 21yl64@queensu.ca</p>
-        <p>Yuran Chen: 22yc15@queensu.ca</p>
-        <p>Fangjie Qiu 21fq2@queensu.ca</p>
-        <p>Siyuan Qiu: 21SQ15@queensu.ca</p>
-    </body>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <style>
+      body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #f8f9fa;
+        color: #343a40;
+      }
+
+      h1,
+      h2,
+      h3 {
+        color: #007bff;
+      }
+
+      .outer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+      }
+
+      .inner {
+        width: 80%;
+        max-width: 1200px;
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .icon {
+        margin-right: 10px;
+      }
+
+      @media (max-width: 768px) {
+        .inner {
+          width: 100%;
+          padding: 10px;
+        }
+      }
+
+      .contact-list li {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+      }
+
+      .contact-list li strong {
+        min-width: 180px; /* Adjust based on the longest name */
+      }
+    </style>
+
+    <title>readme</title>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+      <header class="inner">
+        <h1 id="project_title">Group 10: Readme</h1>
+      </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h5 id="group-members--Xinyu-Liu-Chuyi-Qin-Yuzhe-Lin-Yuran-Chen-Fangjie-Qiu-Siyuan-Qiu">
+          <i class="fas fa-users icon"></i>Group Members : Xinyu Liu, Chuyi Qin, Yuzhe Lin, Yuran Chen, Fangjie Qiu, Siyuan Qiu
+        </h5>
+
+        <h2 id="about-project">
+          <i class="fas fa-info-circle icon"></i>About Project
+        </h2>
+        <p>
+          ScummVM is a program that allows you to run certain classic graphical adventure and role-playing games, provided you already have their data files. The clever part about this: ScummVM just replaces the executables shipped with the games, allowing you to play them on systems for which they were never designed! ScummVM is a complete rewrite of these games' executables and is not an emulator.
+        </p>
+
+
+        <h3 id="assignment-1"><i class="fas fa-file-alt icon"></i>Assignment 1</h3>
+        <ul>
+          <li>Conceptual Architecture report: <a href="">A1 report</a></li>
+          <li>Conceptual Architecture slides: <a href="">A1 slides</a></li>
+        </ul>
+
+        <h3 id="assignment-2"><i class="fas fa-file-alt icon"></i>Assignment 2</h3>
+        <ul>
+          <li>Concrete Architecture report: <a href="">A2 report</a></li>
+          <li>Concrete Architecture slides: <a href="">A2 slides</a></li>
+        </ul>
+
+        <h3 id="assignment-3"><i class="fas fa-file-alt icon"></i>Assignment 3</h3>
+        <ul>
+          <li>Proposal for Enhancement report：<a href="">A3 report</a></li>
+          <li>Proposal for Enhancement slides：<a href="">A3 slides</a></li>
+        </ul>
+
+        <h3 id="contacts"><i class="fas fa-envelope icon"></i>Contacts</h3>
+        <ul class="contact-list">
+            <li><strong>Xinyu Liu:</strong> 19xl170@queensu.ca</li>
+            <li><strong>Chuyi Qin:</strong> 21ciq@queensu.ca</li>
+            <li><strong>Yuzhe Lin:</strong> 21yl64@queensu.ca</li>
+            <li><strong>Yuran Chen(Leader):</strong> 22yc15@queensu.ca</li>
+            <li><strong>Fangjie Qiu:</strong> 21fq2@queensu.ca</li>
+            <li><strong>Siyuan Qiu:</strong> 21SQ15@queenus.ca</li>
+        </ul>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+  </body>
 </html>
